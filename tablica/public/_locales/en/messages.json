@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Tablica"
+  },
+  "appShortName": {
+    "message": "Tablica"
+  },
+  "appDescription": {
+    "message": "Sort, group, and deduplicate browser tabs intelligently"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Tablica",
+  "short_name": "Tablica",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "author": "Chirayu Khandelwal",
+  "description": "Intelligent tab organizer — sort, group, and deduplicate tabs with domain-first sorting",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png",
+    "256": "icons/icon256.png",
+    "512": "icons/icon512.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tablica"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "storage",
+    "windows"
+  ]
+}
